@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tcs.wba.wbaindiavisit.AgendaFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:padding="10dp">
+
+        <ToggleButton
+            android:id="@+id/oct03"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="03th October, Monday"
+            android:textOn="03th October, Monday" />
+
+        <ToggleButton
+            android:id="@+id/oct07"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="07th October, Friday"
+            android:textOn="07th October, Friday" />
+
+        <ToggleButton
+            android:id="@+id/oct09"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="09th October, Friday"
+            android:textOn="09th October, Friday" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/agenda_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="70dp" />
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tcs.wba.wbaindiavisit.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:padding="10dp">
+
+        <ToggleButton
+            android:id="@+id/aboutTATA"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|top"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="About TATA"
+            android:textOn="About TATA" />
+
+        <ToggleButton
+            android:id="@+id/aboutTCS"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="About TCS"
+            android:textOn="About TCS" />
+
+        <ToggleButton
+            android:id="@+id/aboutWBATCS"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|top"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="About WBA/TCS"
+            android:textOn="About WBA/TCS" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/about_us_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="70dp" />
+
+
+</FrameLayout>

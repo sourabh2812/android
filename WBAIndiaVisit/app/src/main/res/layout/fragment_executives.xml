@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tcs.wba.wbaindiavisit.ExecutivesFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:padding="10dp">
+
+
+        <ToggleButton
+            android:id="@+id/wbaExecutives"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="WBA"
+            android:textOn="WBA" />
+
+        <ToggleButton
+            android:id="@+id/tcsExecutives"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="TCS"
+            android:textOn="TCS" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/executives_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="70dp" />
+
+</FrameLayout>

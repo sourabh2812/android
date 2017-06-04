@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StopRape</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_btn">Login!</string>
+    <string name="register">Register</string>
+    <string name="user_name">Name</string>
+    <string name="password">Password</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="invite">Invite Code (Leave blank for new)</string>
+    <string name="email_reset">Enter your registered Email ID</string>
+    <string name="current_pass">Enter your current password</string>
+    <string name="new_pass">Enter your new password</string>
+    <string name="signup">Sign Up</string>
+    <string name="resetpass">Reset Password</string>
+    <string name="changepass"><u>Change Password?</u></string>
+    <string name="aroundMe">Around Me</string>
+    <string name="helpMe">Help Me</string>
+    <string name="giveHelp">Press to Help</string>
+    <string name="refresh">Refresh</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help Victim</string>
+    <string name="signin">Sign In</string>
+    <string name="forgotpass"><u>Forgot Password?</u></string>
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_resetpass">Forgot Password</string>
+    <string name="title_activity_change_password">Change Password</string>
+
+</resources>

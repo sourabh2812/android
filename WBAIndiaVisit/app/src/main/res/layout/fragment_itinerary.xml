@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tcs.wba.wbaindiavisit.ItineraryFragment">
+
+    <FrameLayout
+        android:id="@+id/itinerary_frame"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|bottom" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_horizontal"
+        android:padding="10dp">
+
+        <ToggleButton
+            android:id="@+id/oct1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="1st Oct"
+            android:textOn="1st Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="2nd Oct"
+            android:textOn="2nd Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct3"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="3rd Oct"
+            android:textOn="3rd Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct4"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="4th Oct"
+            android:textOn="4th Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct5"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="5th Oct"
+            android:textOn="5th Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct6"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="6th Oct"
+            android:textOn="6th Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct7"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="7th Oct"
+            android:textOn="7th Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct8"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="8th Oct"
+            android:textOn="8th Oct" />
+
+        <ToggleButton
+            android:id="@+id/oct9"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/button_selector"
+            android:focusable="false"
+            android:textAllCaps="false"
+            android:textOff="9th Oct"
+            android:textOn="9th Oct" />
+
+    </RelativeLayout>
+
+</FrameLayout>

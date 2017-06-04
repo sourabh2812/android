@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marker_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/station_info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/marker_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_contact_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/navButton"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/button_infowindow"
+        android:text="@string/giveHelp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:enabled="true"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_view_agenda_black"
+            android:title="Agenda" />
+
+        <item
+            android:id="@+id/nav_executive"
+            android:icon="@drawable/ic_people_black"
+            android:title="Executive" />
+
+        <item
+            android:id="@+id/nav_itinerary"
+            android:icon="@drawable/ic_library_books_black"
+            android:title="Itinerary" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contact_phone_black"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_accessibility_black"
+            android:title="About Us" />
+    </group>
+
+</menu>
