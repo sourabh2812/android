@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0E0E6"
+    android:padding="5dp"
+    tools:context="com.idealyticapps.mousepad.activity.TouchPad" >
+
+    <TextView
+        android:id="@+id/mousePad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rightClick"
+        android:background="#C0C0C0"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/leftClick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/rightClick"
+        android:layout_alignBottom="@+id/rightClick"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/leftclick_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="leftClick"
+        android:text="@string/leftClick"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/rightClick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/mousePad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/mousePad"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rightclick_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="rightClick"
+        android:text="@string/rightClick"
+        android:textColor="#fff" />
+
+</RelativeLayout>

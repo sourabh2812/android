@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String Constants for Application Common -->
+    <string name="app_name">MousePad</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- String Constants for Connection Activity -->
+    <string name="ipAddress">PC - IP Address</string>
+    <string name="portNbr">PC - Port Number</string>
+    <string name="connect">Connect</string>
+    <string name="switchOption">Use Motion Sensor</string>
+
+    <!-- String Constants for MousePad Activity -->
+    <string name="leftClick">Left Click</string>
+    <string name="rightClick">Right Click</string>
+
+    <!-- String Constants for TouchPad Activity -->
+    <string name="keyboard">PC KeyBoard</string>
+
+    <!-- Style for Button Text -->
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="title_activity_mousepad">MousePad</string>
+    <string name="title_activity_touchpad">TouchPad</string>
+
+</resources>
