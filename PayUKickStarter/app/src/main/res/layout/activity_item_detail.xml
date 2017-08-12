@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kickstarter.payu.com.payukickstarter.ItemDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="230dp"
+        android:layout_y="51dp"
+        android:orientation="horizontal">
+
+        <WebView
+            android:id="@+id/itemDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0sp"
+            tools:layout_editor_absoluteY="0sp"></WebView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
